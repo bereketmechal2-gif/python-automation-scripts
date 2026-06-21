@@ -1,4 +1,5 @@
 y = int(input("How many times do you want to rotate \n"))
+print("thank you")
 import turtle
 screen = turtle.Screen()
 screen.bgcolor("black")
