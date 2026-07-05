@@ -15,7 +15,7 @@ else:
     print()
 menu = "Tea\nCoffee\nKeshr\nLatte\n"
 price = 0
-order = input("welcome to the cafe " + name + " , what can i get you from our menu\n " + menu).lower()
+order = input(f"welcome to the cafe {name} , what can i get you from our menu\n " + menu).lower()
 if order == "tea": 
     price = 10
 elif order == "keshr":
@@ -29,7 +29,7 @@ else:
     exit()
 much = int(input("How many do you want \n"))
 total = price * much
-print("so the total price is ===> " + str(total))
+print(f"so the total price is ===> {total}" )
 print("Thank you, " + name + " for ordering, Your order of " + str(much) +" " + order + " it will be ready soon pleas have set")
 
 
